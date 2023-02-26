@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.countdown-container{
+    /* max-width: 900px; */
+    /* min-height: 300px; */
+    margin: 50px auto;
+    gap: 40px;
+    background-color: #fff;
+    border:2px solid gray;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.countdown-input{
+    font-size:bold;
+    font-size: 20px;
+}
